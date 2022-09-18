@@ -13,8 +13,14 @@ class Fiscal_Helper:
         dates = self.calendar['date_id']
         self.dates = dates.drop_duplicates().to_list()
 
+    def next(self, inp_str: str):
+      return self.offset(inp_str, 1)
 
-    def offset(self, inp_str: str, offset: int = 1):
+    def previous(self, inp_str: str):
+      return self.offset(inp_str, -1)
+
+
+    def offset(self, inp_str: str, offset: int):
         '''Returns week_id or date_id offset by specified periods'''
 
         # make sure offset is an int
