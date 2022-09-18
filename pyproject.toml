@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fiscal_calendar_helper"
+version = "0.0.1"
+authors = [
+  { name="Phillip Geltman"},
+]
+description = "A fiscal helper for retail calendars"
+readme = "README.md"
+license = { file="LICENSE.md" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Growthsayer/fiscal-helper"
+"Bug Tracker" = "https://github.com/Growthsayer/fiscal-helper/issues"
