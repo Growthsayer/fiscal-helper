@@ -6,15 +6,9 @@ This helper function is based on the National Retail Federations 4-5-4 calendar 
 - Offset a date or week
 - Translate a date to the fiscal week and vice versa
 
-To install
+To use the fiscal helper:
 ```
-pip install git+https://github.com/Growthsayer/fiscal-helper.git
-```
-
-To start a new fiscal helper:
-```
-import Fiscal_Helper from fiscal_helper
-fiscal = Fiscal_Helper()
+from fiscal_calendar_helper import fiscal 
 ```
 
 ## Fiscal Offsets
