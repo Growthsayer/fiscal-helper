@@ -3,7 +3,7 @@ import pandas as pd
 class Fiscal_Helper:
 
     def __init__(self):
-        self.calendar = pd.read_csv('./fiscal_helper/fiscal_calendar.csv')
+        self.calendar = pd.read_csv('./fiscal_calendar.csv')
 
         # create a list of week_ids
         weeks = self.calendar['week_id']

@@ -3,8 +3,8 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "fiscal-calendar-helper"
-version = "0.0.2"
+name = "fiscal_calendar_helper"
+version = "0.0.4"
 authors = [
   { name="Phillip Geltman"},
 ]
