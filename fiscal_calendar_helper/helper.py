@@ -38,3 +38,15 @@ class Fiscal_Helper:
             raise Exception(f"Input type should be 'YYYY_WW' for week ID and 'YYYY_MM_DD' for date_id")
 
         return out_str
+
+    # Converts one fiscal time period to another
+    def convert(self, inp_str: str, inp_type: str, out_type: str):
+            if inp_type == 'week':
+                if self.is_valid_week(inp_str):
+                    bob = "Do the translation"
+            return True
+
+    def is_valid_fiscal(self, inp_str: str, inp_type: str):
+
+        return True
+
