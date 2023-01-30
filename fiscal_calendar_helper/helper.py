@@ -1,3 +1,4 @@
+from .fiscal_calendar import calendar
 import pandas as pd
 
 class Fiscal_Helper:
@@ -5,7 +6,7 @@ class Fiscal_Helper:
     def __init__(self):
         
         # read the calendar
-        self.calendar = pd.read_csv('./fiscal_calendar_helper/fiscal_calendar.csv')
+        self.calendar = pd.DataFrame.from_dict(calendar)
         self.calendar = self.calendar.astype(str)
         self.calendar['date'] = pd.to_datetime(self.calendar['date'])
 
