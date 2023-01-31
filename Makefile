@@ -1,4 +1,4 @@
 test:
-	pytest -v
+	coverage run -m pytest -v
 coverage:
-	coverage report
+	coverage report --omit='*/site-packages/*' -m
