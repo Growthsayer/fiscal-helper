@@ -1,0 +1,3 @@
+- Create an indexer function that will return the index of the offset between two dates in the same calendar. Apparently, Dan has needed this, and it would be helpful for knowing things like week 2023_02 is 4 weeks after 2022_50 or whatever. There isn't an easy way to get the inverse of the offset
+- Convert the week num to be a 2 digit week number - either programatically, or changing the raw data file.
+- Create a make script that will read the contents of the CSV file and generate the required python json formatter wrapper.
