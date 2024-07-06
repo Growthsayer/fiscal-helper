@@ -17,6 +17,7 @@ class Fiscal_Helper:
             'year' : 5,
             'quarter' : 4,
             'month' : 3,
+            'month_id': 3,
             'week_num': 2,
             'day_of_week': 1,
             'date' : 1,
