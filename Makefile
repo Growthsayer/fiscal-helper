@@ -1,11 +1,10 @@
 build:
-  @echo "Building the project..."
-	python -m build
-	@echo "Deleting files in the dist/ folder..."
-	rm -rf dist/*
+	@echo "Building the project..."
+	@rm -rf dist/*
+	@python3 -m build
 deploy:
 	@echo "Deploying the project..."
-	twine python -m twine upload --repository pypi dist/*
+	@python3 -m twine upload --repository pypi dist/*
 test:
 	coverage run -m pytest -v
 coverage:

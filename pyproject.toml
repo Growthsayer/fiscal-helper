@@ -4,11 +4,11 @@ build-backend = "hatchling.build"
 
 [project]
 name = "fiscal-calendar-helper"
-version = "1.2.0"
+version = "1.2.1"
 authors = [
   { name="Phillip Geltman"},
 ]
-description = "A fiscal helper for 4-5-4 retail calendars"
+description = "A fiscal helper for retail calendars"
 readme = "README.md"
 license = { file="LICENSE.md" }
 requires-python = ">=3.7"
