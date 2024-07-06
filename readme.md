@@ -40,10 +40,11 @@ Our fiscal calendar is capable of supportting different levels of the calendar h
 | Level | Description | Example | Data Type |  Relative or Absolute | 
 | --- | --- | --- | --- | --- |
 | `key` | This is a numeric key for this record and should not be confused with the date itself. This is most likely not what you're looking for. It's a structure holding counts of year, week, and day_of_week as an index starting at 1. For example this key `2023_07_7` actually represents the date 3/18/23 which looks totally different. | `2023_07_7` | `string`| Absolute |
-| `week_id` | This is unique id for this fiscal week | `2023_07` | `string`| Absolute |
+| `week_id` | This is the unique id for this fiscal week | `2023_07` | `string`| Absolute |
 | `year` | This is the fiscal year. | `2023` | `string`| Absolute |
 | `quarter` | This is the fiscal quarter. | `Q1` | `string`| Relative |
 | `month` | This is the fiscal month. | `March` | `string`| Relative |
+| `month_id` | This is the unique id for the fiscal month. | `2023_M02` | `string`| Absolute |
 | `week_num` | This is a relative count of the number of weeks in the year. | `7` | `string`| Relative |
 | `day_of_week` | This is the day of the week in plain text. | `Saturday` | `string`| Absolute |
 | `date` | This is a datetime formatted representation of the fiscal date. | `2023-03-18` | `datetime`| Absolute |
