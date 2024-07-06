@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "fiscal-calendar-helper"
-version = "1.2.1"
+version = "1.2.2"
 authors = [
   { name="Phillip Geltman"},
 ]
@@ -22,5 +22,25 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/Growthsayer/fiscal-helper"
-"Bug Tracker" = "https://github.com/Growthsayer/fiscal-helper/issues"
+homepage = "https://github.com/Growthsayer/fiscal-helper"
+bug_tracker = "https://github.com/Growthsayer/fiscal-helper/issues"
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+    "Makefile",
+    "buildsteps.md",
+    "todo.md",
+    "htmlcov",
+    ".gitignore",
+    "__pycache__",
+    "*.pyc",
+    "*.pyo",
+    "*.pyd",
+    "*.tmp",
+    "*.bak",
+    "*.swp",
+    "*.lock",
+    "*.log",
+    ".DS_Store",
+    "tests",
+]
