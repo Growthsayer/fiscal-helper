@@ -12,12 +12,13 @@ class Fiscal_Helper:
 
         # valid calendar levels - the higher the level, the higher the number
         self.levels = {
-            'key' : 1,
-            'week_id' : 2,
+            'key': 1,
             'year' : 5,
             'quarter' : 4,
+            'quarter_id': 4,
             'month' : 3,
             'month_id': 3,
+            'week_id': 2,
             'week_num': 2,
             'day_of_week': 1,
             'date' : 1,
